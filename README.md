@@ -16,12 +16,12 @@ Build and train a neural network using TensorFlow/Keras to classify handwritten 
 2. **Load Dataset** – Load MNIST dataset using Keras.  
 3. **Preprocess Data** – Normalize pixel values and convert labels to one-hot encoding.  
 4. **Build Neural Network** – Define a Sequential model with hidden layers, activation functions, and Dropout for regularization.  
-5. **Train Model** – Fit the model with training data, optionally using EarlyStopping.  
-6. **Visualize Training History** – Plot loss and accuracy curves for training and validation sets with consistent theme.  
+5. **Train Model** – Fit the model with training data, using EarlyStopping.  
+6. **Visualize Training History** – Plot loss and accuracy curves for training and validation sets. 
 7. **Evaluate on Test Data** – Compute test loss, accuracy, and display classification metrics.  
 8. **Confusion Matrix** – Display confusion matrix for predictions.  
-9. **Classification Report for Test Predictions** – Display precision, recall, F1-score, and support for each class 
-10. **Visualize Misclassified Images** –  Plot examples of test images that were misclassified, showing both the true label and predicted label
+9. **Classification Report for Test Predictions** – Display precision, recall, F1-score, and support for each class.
+10. **Visualize Misclassified Images** –  Plot examples of test images that were misclassified, showing both the true label and predicted label.
 
 ## Features
 - Fully connected neural network with one or more hidden layers  
